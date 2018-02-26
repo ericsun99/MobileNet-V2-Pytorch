@@ -17,3 +17,5 @@ MobileNet v2 	71.806 	90.410	71.70
 Evaluate Models
 python eval.py -a mobilenetv2 --evaluate ./mobilenetv2_Top1_71.806_Top2_90.410.pth.tar ./ILSVRC2012/ 
 
+Dataset prepare
+Refer to https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md#download-the-imagenet-dataset
